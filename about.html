@@ -10,8 +10,7 @@
       margin: 0; 
       padding: 20px; 
     }
-    
-    /* Navigation tabs */
+       /* Navigation tabs */
     .tabs { 
       background: #f0f0f0; 
       padding: 10px 0; 
@@ -40,6 +39,16 @@
       width: 100%; 
       border-radius: 10px; 
     }
+    .photo figure {
+      margin: 0;
+    }
+
+    .photo figcaption {
+      margin-top: 8px;       /* space between image and caption */
+      font-size: 0.9em;
+      color: #555;
+      text-align: center;    /* center the caption under the image */
+    }
     .content { 
       flex: 1; 
     }
@@ -47,6 +56,11 @@
       color: #4E06C7; 
       font-style: italic; 
       margin: 0 0 20px 0; 
+    }
+     /* FIX: Only link text clickable, not entire line */
+    .content a {
+      display: inline;
+      text-decoration: underline;
     }
   </style>
 </head>
@@ -59,3 +73,26 @@
     <a href="curriculum-vitae.html">CV</a>
     <a href="contact.html">Contact</a>
   </nav>
+
+<div class="main">
+    <div class="photo">
+      <figure>
+      <img src="rsmadhavan-2.jpg" alt=""
+      <figcaption>One of my earliest pictures from my PhD at Göttingen, taken by my friend and colleague, <a href="https://smy1.github.io/">Dr. Sia Ming Yean </a></figcaption>
+      </figure>
+    </div>
+    <div class="content">
+      <h1>About me</h1>
+      
+      <p>In September 2025, I joined the Center for Data Science in Humanities at Chosun University, South Korea, as part of the Humanities Korea HK 3.0 project. As part of my role, I co-lead the ManyBabies-AtHome: Looking While Listening project along with  <a href="https://sites.google.com/site/eonsuk/home">Prof. Eon-Suk Ko. </a> and <a href=https://kvonholzen.github.io/index.html">Dr. Katie von Holzen </a>. This is a remote, cross-linguistic study investigating the genralisability of the standard looking-while-listening task used in developmental research.  <br><br>
+
+I began my first postdoctoral role in September 2024, at the Department of Language and Linguistic Sciences at the University of York, working on a UKRI-funded project investigating the role of sensorimotor feedback in language acquisition, SENFM, under <a href="https://www.york.ac.uk/language-linguistic-science/people/catherine-laing/">Dr. Catherine Laing</a>. This is an ongoing project, where we investigate the role of sensorimotor feedback as a mechanism of learning in early infancy and childhood, zooming in on the interaction between an infant's vocal development in their first year and their initial language environment. The aim is to understand how these interactions contribute to the acquisition and development of speech sounds, and ultimately, an infant's first words. Check out their <a href="https://senfm.york.ac.uk/home">website</a> for information and updates about the project! <br><br> 
+
+My academic journey began in September 2020, when I joined the University of Göttingen in Germany to do a PhD after completing my Masters in Cognitive Neuroscience at UCL, London. I worked under the supervision of<a href="https://www.psych.uni-goettingen.de/en/lang/team/nivi-mani">Prof. Dr. Nivedita Mani</a>. During my PhD, which I defended in August 2024, I investigated parent-child dynamics in social interactions, and how they influence early language learning. Particularly, I examined how parental input and children's selective interests in various topics influence features of caregiver-child interactions, and subsequently, novel word learning from these interactions. I used various eye-tracking and behavioural measures, in different lab-based and naturalistic settings.  <br><br>
+
+My research focuses on young children's language development, and I'm particularly interested in exploring how their caregiver's input and caregiver-child interactions influence this process. I am also passionate about Open Research and replicable research practices in developmental research - specifically, establishing sustainable and low-resource research methods and practices that are generalisable across languages and cultures. </p>
+</p>
+    </div>
+  </div>
+</body>
+</html>
